@@ -3,8 +3,13 @@
 #include <time.h>
 
 int main(){
+    char str[15];
     int die1, die2;
     int total=0;
+
+    printf("What is your name?\n> ");
+    scanf("%s",str);
+    printf("Hello, %s!\n",str);
 
     srand((unsigned) time(NULL));
 
