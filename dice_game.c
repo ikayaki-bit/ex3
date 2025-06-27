@@ -22,10 +22,10 @@ int main(){
     printf("Die 1: %d\nDie 2: %d\nTotal value: %d\n",die1, die2, total);
 
     if(total > 7){
-        printf("You won!\n");
+        printf("%s won!\n",str);
     }
     else {
-        printf("You lost!\n");
+        printf("%s lost!\n",str);
     }
 
     return 0;
